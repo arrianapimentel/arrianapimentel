@@ -48,3 +48,26 @@ a {
 a:hover {
   color: #0d2bc2;
 }
+
+/* Navigation bar linking the two pages */
+nav {
+  margin: 16px 0 28px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #96e2d8;
+}
+
+nav a {
+  margin-right: 18px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Marks which page you are currently on */
+nav a.current {
+  color: #096F91;
+  text-decoration: underline;
+}
